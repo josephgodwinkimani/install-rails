@@ -40,7 +40,7 @@ log_info "Installing Redis ..."
   tar -zxvf redis-6.2.7.tar.gz
   cd redis-6.2.7
   make
-  make install
+  sudo make install
   rm -rf redis-6.2.7 redis-6.2.7.tar.gz
   fi
 
