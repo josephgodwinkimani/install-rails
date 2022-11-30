@@ -37,7 +37,8 @@ log_info "Installing curl ..."
 log_info "Installing Redis ..."
   if [[ $(command -v redis-server) ]]; then
   wget https://download.redis.io/releases/redis-6.2.7.tar.gz
-  cd redis-6.2.7.tar.gz
+  tar -zxvf redis-6.2.7.tar.gz
+  cd redis-6.2.7
   make && make install
   fi
 
