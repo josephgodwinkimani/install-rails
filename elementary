@@ -35,14 +35,8 @@ log_info "Installing curl ..."
   sudo apt-get -y install curl
 
 log_info "Installing Redis ..."
- if ! redis-server --version | grep -q "6.2.7"; then
-  wget https://download.redis.io/releases/redis-6.2.7.tar.gz
-  tar -zxvf redis-6.2.7.tar.gz
-  cd redis-6.2.7
-  make
-  sudo make install
-  rm -rf redis-6.2.7 redis-6.2.7.tar.gz
-  fi
+  sudo apt-get update
+  sudo apt-get -y install redis
 
 log_info "Installing ImageMagick ..."
   sudo apt-get -y install libtool
