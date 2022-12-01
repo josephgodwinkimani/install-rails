@@ -75,7 +75,7 @@ fi
 ruby_version="2.7.6"
 
 log_info "Installing Ruby $ruby_version ..."
-  rbenv install "$ruby_version"
+  rbenv install "$ruby_version" --verbose
 
 log_info "Setting $ruby_version as global default Ruby ..."
   rbenv global $ruby_version
