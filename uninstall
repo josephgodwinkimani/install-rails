@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
 
-sudo apt purge git libxslt1-dev libcurl4-openssl-dev libksba8 libksba-dev libreadline-dev libssl-dev zlib1g-dev libsnappy-dev libsqlite3-dev sqlite3 postgresql libpq-dev redis libtool advancecomp gifsicle jpegoptim libjpeg-progs optipng pngcrush pngquant jhead nodejs npm 
+sudo apt purge git 
+sudo apt purge libxslt1-dev libcurl4-openssl-dev libksba8 libksba-dev libreadline-dev libssl-dev zlib1g-dev libsnappy-dev libsqlite3-dev 
+sudo apt purge sqlite3 
+sudo apt purge postgresql 
+sudo apt purge libpq-dev 
+sudo apt purge redis 
+sudo apt purge libtool advancecomp gifsicle jpegoptim libjpeg-progs optipng pngcrush pngquant jhead 
+sudo apt purge nodejs npm 
 sudo rm /usr/local/bin/redis-*
 sudo rm /etc/redis/redis.conf
 sudo rm -r /etc/redis/
