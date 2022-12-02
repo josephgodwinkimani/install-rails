@@ -5,7 +5,7 @@ sudo apt purge -y libxslt1-dev libcurl4-openssl-dev libksba8 libksba-dev libread
 sudo apt purge -y sqlite3 
 sudo apt purge -y postgresql 
 sudo apt purge -y libpq-dev 
-sudo apt purge -y redis 
+sudo apt purge -y redis redis-*
 sudo apt purge -y libtool advancecomp gifsicle jpegoptim libjpeg-progs optipng pngcrush pngquant jhead 
 sudo apt purge -y nodejs npm 
 sudo apt purge -y git-man gnupg-l10n gpg-wks-server liberror-perl libjbig-dev libjpeg-turbo-progs libltdl-dev liblzma-dev libpng-tools libtiffxx5
