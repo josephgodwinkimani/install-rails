@@ -42,6 +42,7 @@ log_info "Installing Redis ..."
   make
   sudo make install
   rm -rf redis-7.0.5 redis-7.0.5.tar.gz
+  cd ~/
   fi
 
 log_info "Installing ImageMagick ..."
