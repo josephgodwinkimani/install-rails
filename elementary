@@ -41,7 +41,7 @@ log_info "Installing Redis ..."
   cd redis-7.0.5
   make
   sudo make install
-  sudo cp /tmp/redis-stable/redis.conf /etc/redis
+  sudo cp redis.conf /etc/redis
   sudo mkdir /etc/redis
   rm -rf redis-7.0.5 redis-7.0.5.tar.gz
   cd ~/
