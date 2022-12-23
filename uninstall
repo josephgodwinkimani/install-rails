@@ -12,8 +12,8 @@ sudo apt purge -y git-man gnupg-l10n gpg-wks-server liberror-perl libjbig-dev li
 sudo apt -y autoremove
 sudo rm /usr/local/bin/redis-*
 sudo rm /etc/redis/redis.conf
-sudo rm -r /etc/redis/
-sudo rm -r /var/lib/redis/
+sudo rm -rf /etc/redis/
+sudo rm -rf /var/lib/redis/
 sudo rm /etc/init.d/redis_*
 sudo rm /var/run/redis_*
 sudo rm -rf /usr/local/bin/npm 
