@@ -9,7 +9,9 @@ sudo apt purge -y redis redis-*
 sudo apt purge -y libtool advancecomp gifsicle jpegoptim libjpeg-progs optipng pngcrush pngquant jhead 
 sudo apt purge -y nodejs npm 
 sudo apt purge -y git-man gnupg-l10n gpg-wks-server liberror-perl libjbig-dev libjpeg-turbo-progs libltdl-dev liblzma-dev libpng-tools libtiffxx5
+sudo apt purge -y rbenv
 sudo apt -y autoremove
+sudo rm -rf ~/.rbenv/
 sudo rm /usr/local/bin/redis-*
 sudo rm /etc/redis/redis.conf
 sudo rm -rf /etc/redis/
